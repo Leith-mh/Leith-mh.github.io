@@ -42,7 +42,7 @@ experience:
     company_logo: ''
     location: Sousse
     date_start: '2021-08-01'
-    date_end: '2021-10-1'
+    date_end: '2021-10-01'
     description: |2- 
       Developing a Driving school management system web app using React JS for the front end and spring boot for the backed and postgreSQL as the database
 
