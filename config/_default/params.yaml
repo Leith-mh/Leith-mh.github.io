@@ -6,9 +6,9 @@
 # Appearance
 
 appearance:
-  theme_day: Cyberpunk
-  theme_night: Cyberpunk
-  font: Cyberpunk
+  theme_day: mr robot
+  theme_night: mr robot
+  font: cyberpunk
   font_size: L
 
 # SEO
