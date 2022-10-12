@@ -2,7 +2,7 @@
 title: Microservice in GO
 date: 2022-10-12T20:29:08.300Z
 summary: A microservice project written in golang to get more familiar with the
-  microservice archiecture, rabbitmq and gPrc
+  microservice archiecture, rabbitmq and gPrc (Work in progress)
 draft: false
 featured: false
 categories:
