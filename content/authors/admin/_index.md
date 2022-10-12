@@ -32,4 +32,4 @@ email: ""
 ---
 Final year Computer networks and telecommunication's engineering student, Fullstack developer, cybersecurity and DevOps enthusiast. I love playing CTF games and learning about new technologies
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/leith.pdf" "newtab" >}}resumé{{< /staticref >}}.
