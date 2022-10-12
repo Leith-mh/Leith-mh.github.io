@@ -40,7 +40,7 @@ experience:
     company_url: ''
     company_logo: ''
     location: ''
-    date_starte:'2022-02-01'
+    date_starte: '2022-02-01'
     date_end: '2022-05-15'
     description: developing and deploying a webapp for a tunisian travel agency
   
