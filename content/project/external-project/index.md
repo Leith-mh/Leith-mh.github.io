@@ -1,5 +1,5 @@
 ---
-title: Pentest tools
+title: Pentesting tools
 date: 2021-06-27T00:00:00.000Z
 summary: A collection of Penetration testing tools written in python (work in progress)
 tags:
