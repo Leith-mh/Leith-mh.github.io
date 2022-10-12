@@ -1,7 +1,6 @@
 ---
 avatar_filename: 1650510418837.jpeg
-bio: My research interests include distributed robotics, mobile computing and
-  programmable matter.
+bio: ""
 interests:
   - Cybersecurity
   - Distributed-systems
@@ -20,10 +19,9 @@ social:
 organizations: []
 education:
   courses:
-    - course: Engineering degree in Networking and telecommuncations specialised in
-        cybersecurity
+    - course: Engineers's Degree in Computer Science & Networks
       institution: National Institute of Applied Science and Technology -Tunis
-      year: ""
+      year: 2023
 superuser: true
 last_name: Bighetti
 role: Devops Enthusiast
