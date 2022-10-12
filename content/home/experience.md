@@ -38,6 +38,9 @@ date_format: Jan 2006
         * Deploying and Managing a netmaker server in order to ensure inter-node communcation between the nodes
   - title: Web developper
     company: Freelance
+    company_url: ''
+    company_logo: ''
+    location: ''
     date_start: '2022-05-15'
     date_end: '2022-02-01'
     description: |2-
