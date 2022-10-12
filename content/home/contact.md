@@ -17,12 +17,10 @@ content:
 
   # Email form provider
   form:
-    provider: netlify
+    provider: formspree
     formspree:
-      id:
-    netlify:
-      # Enable CAPTCHA challenge to reduce spam?
-      captcha: false
+      id: xoqblpjv
+   
 
   # Contact details (edit or remove options as required)
   email: leith.mhf@gmail.com
