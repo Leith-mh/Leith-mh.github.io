@@ -45,7 +45,6 @@ date_format: Jan 2006
     date_end: '2022-02-01'
     description: |2-
        worked on developing and deploying a web app for a travel agency in hamamet
-
   - title: Web developper intern
     company: ProxymIT
     company_url: ''
