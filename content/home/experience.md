@@ -21,6 +21,7 @@ date_format: Jan 2006
 #   Required fields are `title`, `company`, and `date_start`.
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+experience:
   - title: Devops Intern
     company: Cremoetry
     company_url: ''
@@ -34,15 +35,15 @@ date_format: Jan 2006
         * Administrating a distributed kubernetes cluster
         * Using client-go library to query relevant metrics from the cluster
         * Deploying and Managing a netmaker server in order to ensure inter-node communcation between the nodes
-  - title: Web developper
+  - title: web developper
     company: Freelance
     company_url: ''
     company_logo: ''
     location: ''
-    date_start: '2022-05-15'
-    date_end: '2022-02-01'
-    description: |2-
-       worked on developing and deploying a web app for a travel agency in hamamet
+    date_starte:'2022-02-01'
+    date_end: '2022-05-15'
+    description: developing and deploying a webapp for a tunisian travel agency
+  
   - title: Web developper intern
     company: ProxymIT
     company_url: ''
