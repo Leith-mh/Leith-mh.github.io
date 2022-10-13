@@ -24,7 +24,7 @@ education:
       year: 2023
 superuser: true
 last_name: Bighetti
-role: Devops Enthusiast
+role: Devops & cybersecurity Enthusiast
 highlight_name: true
 title: Leith Mahfoudhi
 first_name: Alice
