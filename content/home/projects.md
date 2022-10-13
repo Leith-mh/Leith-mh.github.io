@@ -31,8 +31,8 @@ content:
       tag: web
     - name: Devops
       tag: devops
-    - name: Others
-      tag: demo
+    - name: Cyber security
+      tag: cybersecurity
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.
