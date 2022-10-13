@@ -5,8 +5,8 @@ math: true
 subtitle: What is active Directory?
 image:
   placement: 2
-  caption: "Image credit: [**John Moeses
-    Bauan**](https://unsplash.com/photos/OGZtQF8iC0g)"
+  caption: ""
+  filename: featured.jpg
 ---
 # **High level overview of Active Directory**
 
