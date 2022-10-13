@@ -4,7 +4,7 @@ bio: ""
 interests:
   - Cybersecurity
   - Distributed-systems
-  - SRE
+  - Infrastructure
   - Cloud-Native
 social:
   - icon: envelope
