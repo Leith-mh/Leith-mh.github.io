@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Leith1</title><link>https://leith-mh.github.io/</link><atom:link href="https://leith-mh.github.io/index.xml" rel="self" type="application/rss+xml"/><description>Leith1</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 12 Oct 2022 20:29:08 +0000</lastBuildDate><image><url>https://leith-mh.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url><title>Leith1</title><link>https://leith-mh.github.io/</link></image><item><title>Microservices with GO</title><link>https://leith-mh.github.io/project/microservice-in-go/</link><pubDate>Wed, 12 Oct 2022 20:29:08 +0000</pubDate><guid>https://leith-mh.github.io/project/microservice-in-go/</guid><description/></item><item><title>Task Management API</title><link>https://leith-mh.github.io/project/task-management-api/</link><pubDate>Thu, 10 Feb 2022 09:09:55 +0000</pubDate><guid>https://leith-mh.github.io/project/task-management-api/</guid><description/></item><item><title>Pentesting tools</title><link>https://leith-mh.github.io/project/external-project/</link><pubDate>Sun, 27 Jun 2021 00:00:00 +0000</pubDate><guid>https://leith-mh.github.io/project/external-project/</guid><description/></item><item><title>E-learning website</title><link>https://leith-mh.github.io/project/e-learning-website/</link><pubDate>Fri, 01 Jan 2021 09:02:00 +0000</pubDate><guid>https://leith-mh.github.io/project/e-learning-website/</guid><description/></item><item><title>Attacking Active Directory serie -Part I</title><link>https://leith-mh.github.io/post/writing-technical-content/</link><pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate><guid>https://leith-mh.github.io/post/writing-technical-content/</guid><description>&lt;h1 id="high-level-overview-of-active-directory">&lt;strong>High level overview of Active Directory&lt;/strong>&lt;/h1>
+&lt;p>Active Directory or AD is a windows-based directory service. It allows for centralized management of the authentication and authorization. It enables administrators to deploy role-based access control and least privilege efficiently. It stores information related to objects such as Computers,Users,Printers.Physically Active Directory is a collection of machines and servers connected inside of domains, that are a collective part of a bigger forest of domains, that make up the Active Directory network.&lt;/p>
+&lt;p>&lt;em>&lt;strong>But why using active Directory&lt;/strong>&lt;/em>&lt;/p>
+&lt;p>The majority of large companies use Active Directory because it allows for the control and monitoring of their user&amp;rsquo;s computers through a single domain controller. It allows a single user to sign in to any computer on the active directory network and have access to his or her stored files and folders in the server, as well as the local storage on that machine. This allows for any user in the company to use any machine that the company owns, without having to set up multiple users on a machine. Active Directory does it all for you&lt;/p>
+&lt;h2 id="physical-active-directory-components">&lt;strong>Physical Active Directory Components&lt;/strong>&lt;/h2>
+&lt;p>The physical Active Directory is the servers and machines on-premise or in the Cloud&lt;/p>
+&lt;h3 id="domain-controllers">Domain Controllers&lt;/h3>
+&lt;ul>
+&lt;li>A server with the AD DS server role installed and that has been promoted to a domain controller&lt;/li>
+&lt;li>Host a copy of the AD DS directory store&lt;/li>
+&lt;li>Provide authentication and authorization services&lt;/li>
+&lt;li>Replicate updates to other domain controllers in the domain and forest&lt;/li>
+&lt;li>Allow administrative access to manage user accounts and network resources&lt;/li>
+&lt;/ul>
+&lt;h3 id="ad-ds-data-store">AD DS Data Store&lt;/h3>
+&lt;ul>
+&lt;li>Contains the database files and process that store and mange directory information for users,services and application&lt;/li>
+&lt;li>Consists of the Ntds.dit file&lt;/li>
+&lt;li>stored by defualt in the %SystemRoot%\NTDS folder on all domain controllers&lt;/li>
+&lt;li>Only accessible through the domain controller process and protocols&lt;/li>
+&lt;/ul>
+&lt;h2 id="logical-active-directory-components">Logical Active Directory Components&lt;/h2>
+&lt;h3 id="domains">Domains&lt;/h3>
+&lt;ul>
+&lt;li>Manage and group objects in an organization&lt;/li>
+&lt;li>An administrative boundary for applying policies to groups of objects&lt;/li>
+&lt;li>A replication boundary for replicating data between domain controllers&lt;/li>
+&lt;li>An authentication and authorization boundary that provides a way to limit the scope of access to resources&lt;/li>
+&lt;/ul>
+&lt;h3 id="trees">Trees&lt;/h3>
+&lt;ul>
+&lt;li>A hierarchy of domains&lt;/li>
+&lt;li>create a two-way transitive trust with other domains&lt;/li>
+&lt;li>share a contiguous namespace with the parents domain&lt;/li>
+&lt;/ul>
+&lt;h3 id="forests">Forests&lt;/h3>
+&lt;ul>
+&lt;li>A collection of domain trees&lt;/li>
+&lt;li>Share a common schema&lt;/li>
+&lt;li>Share a common configuration partition&lt;/li>
+&lt;li>Share the Enterprise Admins and Schema Admins groups&lt;/li>
+&lt;/ul>
+&lt;h3 id="organization-units">Organization Units&lt;/h3>
+&lt;ul>
+&lt;li>AD containers that can contain users,groups,computers, etc&amp;hellip;&lt;/li>
+&lt;li>Represent the organization hierarchically and logically&lt;/li>
+&lt;li>Manage a collection of objects in a consistent way&lt;/li>
+&lt;li>Apply policies&lt;/li>
+&lt;/ul>
+&lt;h3 id="trust">Trust&lt;/h3>
+&lt;ul>
+&lt;li>Provide a mechanism for users to gain access to resources in another domain&lt;/li>
+&lt;li>All domains in a forest trust all other domains in the forest (can extend outside of the forest)&lt;/li>
+&lt;/ul>
+&lt;p>There are two types of trusts that determine how the domains communicate.&lt;/p>
+&lt;ul>
+&lt;li>Directional - The direction of the trust flows from a trusting domain to a trusted domain&lt;/li>
+&lt;li>Transitive - The trust relationship expands beyond just two domains to include other trusted domains&lt;/li>
+&lt;/ul>
+&lt;h3 id="domain-policies">Domain Policies&lt;/h3>
+&lt;ul>
+&lt;li>dictate how the server operates and what rules it will and will not follow&lt;/li>
+&lt;li>The policies apply to a domain as a whole&lt;/li>
+&lt;/ul>
+&lt;h3 id="ad-ds-schema">AD DS Schema&lt;/h3>
+&lt;ul>
+&lt;li>Defines every type of object that can be stores in the directory&lt;/li>
+&lt;li>Enforces rules regarded Object creation and configuration&lt;/li>
+&lt;/ul>
+&lt;h2 id="active-directory-domain-authentication">Active Directory Domain Authentication&lt;/h2>
+&lt;ul>
+&lt;li>LDAP - Lightweight Directory Access Protocol; provides communication between applications and directory services&lt;/li>
+&lt;li>Certificate Services - allows the domain controller to create, validate, and revoke public key certificates&lt;/li>
+&lt;li>DNS, LLMNR, NBT-NS - Domain Name Services for identifying IP hostnames&lt;/li>
+&lt;/ul>
+&lt;h2 id="active-directory-domain-authentication-1">Active Directory Domain Authentication&lt;/h2>
+&lt;p>There are two main types of authentication in place for Active Directory: NTLM and Kerberos.&lt;/p>
+&lt;ul>
+&lt;li>Kerberos - The default authentication service for Active Directory uses ticket-granting tickets and service tickets to authenticate users and give users access to other resources across the domain.&lt;/li>
+&lt;li>NTLM - default Windows authentication protocol uses an encrypted challenge/response protocol&lt;/li>
+&lt;/ul></description></item><item><title/><link>https://leith-mh.github.io/admin/config.yml</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://leith-mh.github.io/admin/config.yml</guid><description/></item></channel></rss>
