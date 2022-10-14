@@ -35,7 +35,7 @@ experience:
         * Administrating a distributed kubernetes cluster
         * Using client-go library to query relevant metrics from the cluster
         * Deploying and Managing a netmaker server in order to ensure inter-node communcation between the nodes
-  - title: web developper
+  - title: web developer
     company: Freelance
     company_url: ''
     company_logo: ''
@@ -44,7 +44,7 @@ experience:
     date_end: '2022-05-15'
     description: developing and deploying a webapp for a tunisian travel agency
   
-  - title: Web developper intern
+  - title: Web developer intern
     company: ProxymIT
     company_url: ''
     company_logo: ''
