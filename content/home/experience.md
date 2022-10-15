@@ -26,7 +26,7 @@ experience:
     company: Cremoetry
     company_url: ''
     company_logo: ''
-    location: Tunis
+    location: Remote
     date_start: '2022-06-01'
     date_end: '2022-09-01'
     description: |2-
