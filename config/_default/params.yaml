@@ -43,7 +43,7 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Leith Mahfoudhi. This work is licensed under {license}'
+    notice: '© {year} me. This work is licensed under {license}'
     license:
       enable: true
       allow_derivatives: false
@@ -68,7 +68,7 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/<username>/<repository>'
+    url: 'https://github.com/Leith-mh/Leith-mh.github.io'
     content_dir: content
     branch: main
   avatar:
