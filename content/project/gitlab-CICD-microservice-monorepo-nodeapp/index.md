@@ -1,5 +1,5 @@
 ---
-title: CI/CD pipeline for a monorepo microservice node application using Gitlab
+title: CI/CD pipeline for a monorepo microservice node application using Gitlab.
 date: 2022-10-15T09:02:00.000Z
 summary: 
 draft: false
