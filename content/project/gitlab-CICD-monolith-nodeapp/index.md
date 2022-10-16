@@ -10,7 +10,7 @@ tags:
   - gitlab
 external_link: https://gitlab.com/leith.mhf/pet_gallerie_ci_cd
 image:
-  filename: featured.png
+  filename: featured.jpg
   focal_point: Smart
   preview_only: false
 ---
