@@ -22,19 +22,23 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: Devops Intern
+  - title: Devops Consultant
     company: Cremoetry
     company_url: ''
     company_logo: ''
     location: Remote
     date_start: '2022-06-01'
-    date_end: '2022-09-01'
+    date_end: '2022-09-15'
     description: |2-
         Responsibilities include:
         
         * Administrating a distributed kubernetes cluster
-        * Using client-go library to query relevant metrics from the cluster
-        * Deploying and Managing a netmaker server in order to ensure inter-node communcation between the nodes
+        * Ensure inter-nodes communications between a heterogeneous cloudand on premise environment using netmaker and wireguard.
+        * Developing a GoLang script to query relevant kubernetes usage metrics using client-go library.
+        * Implementation of an EKS and a GKE cluster
+        * Provisioning infrastructure with terraform
+        * Dockernization of applications (go,node)
+        * Using open-cost datadog and Promethus to monitor kb8 clus
   - title: web developer
     company: Freelance
     company_url: ''
